@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+#leftside {
+  display: grid;
+  border: 1px solid gray;
+  height: 310px;
+  width: 600px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 4fr 0.8fr;
+  
+
+}
+#first {
+  display: flex;
+  background-color: white;
+
+  
+}
+#second {
+  display: flex;
+  background-color: rgb(197, 156, 235);
+  grid-row: 2 / 4;
+}
+#third {
+  display: flex;
+  background-color: rgb(237, 234, 234);
+  flex-direction: column;
+  
+  
+  
+}
+#forth {
+  display: flex;
+  background-color: rgb(237, 234, 234);
+  
+  
+}
+.button {
+  width: 100px;
+  display: flex;
+  background-color: white;
+  border: 1px solid rgba(55, 132, 255, 0.744);
+}
+.img {
+  border-radius: 50%;
+  align-self: center;
+  border: 3px solid rgba(55, 132, 255, 0.744);
+  
+}
+.p {
+  border-left: 4px solid rgba(55, 132, 255, 0.744);
+  border-right: 4px solid rgba(55, 132, 255, 0.744);
+  border-radius: 5%;
+}
+div > #third > h3 {
+  border-left: 4px solid rgba(55, 132, 255, 0.744);
+  border-right: 4px solid rgba(55, 132, 255, 0.744);
+  border-radius: 8%;
+}
+div > #third > img {
+  border-left: 4px solid rgba(55, 132, 255, 0.744);
+  border-right: 4px solid rgba(55, 132, 255, 0.744);
+  border-radius: 20%;
+}
+div > #third > h4 {
+  border-left: 4px solid rgba(55, 132, 255, 0.744);
+  border-right: 4px solid rgba(55, 132, 255, 0.744);
+  border-radius: 8%;
+}
+div > #forth > p {
+  font-size: 15px;
+  border-left: 4px solid rgba(55, 132, 255, 0.744);
+  border-right: 4px solid rgba(55, 132, 255, 0.744);
+  border-radius: 8%;
+}
+
